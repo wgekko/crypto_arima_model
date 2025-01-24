@@ -4,8 +4,9 @@ pandas
 scikit-learn
 openpyxl
 yfinance
-statsmodels.tsa.arima.model 
 ARIMA
+statsmodels
+sklearn
 sklearn.metrics
 sklearn.linear_model 
 matplotlib.pyplot
