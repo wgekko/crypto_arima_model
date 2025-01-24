@@ -1,0 +1,14 @@
+streamlit
+numpy
+pandas
+scikit-learn
+openpyxl
+yfinance
+statsmodels.tsa.arima.model 
+ARIMA
+sklearn.metrics
+sklearn.linear_model 
+matplotlib.pyplot
+itertools 
+seaborn
+base64
