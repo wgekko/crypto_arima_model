@@ -4,7 +4,6 @@ pandas
 scikit-learn
 openpyxl
 yfinance
-ARIMA
 statsmodels
 sklearn
 sklearn.metrics
