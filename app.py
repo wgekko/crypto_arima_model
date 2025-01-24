@@ -16,10 +16,11 @@ warnings.simplefilter("ignore", category=FutureWarning)
 # Suprimir advertencias ValueWarning
 warnings.simplefilter("ignore")
 
-theme_plotly = None
 
 # Configuración de Streamlit
 st.set_page_config(page_title="Crypto Modelo Predicción", page_icon="img/icono-page.png", layout="wide")
+
+theme_plotly = None
 
 #"""" codigo de particulas que se agregan en le background""""
 particles_js = """<!DOCTYPE html>
