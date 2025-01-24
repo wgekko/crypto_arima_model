@@ -5,9 +5,6 @@ scikit-learn
 openpyxl
 yfinance
 statsmodels
-scikit-learn
-sklearn.metrics
-sklearn.linear_model
 matplotlib.pyplot
 itertools 
 seaborn
