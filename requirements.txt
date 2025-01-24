@@ -5,8 +5,9 @@ scikit-learn
 openpyxl
 yfinance
 statsmodels
-sklearn.metrics==1.5.2
-sklearn.linear_model==1.5.2 
+scikit-learn==1.6.0
+sklearn.metrics
+sklearn.linear_model
 matplotlib.pyplot
 itertools 
 seaborn
