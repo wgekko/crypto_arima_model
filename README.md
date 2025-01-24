@@ -20,5 +20,9 @@ font="sans serif"
 VIDEO 
 
 
-Uploading Crypto Modelo Predicción.mp4…
+
+
+https://github.com/user-attachments/assets/93f52a67-a79b-4b19-acb7-051eddf9820d
+
+
 
