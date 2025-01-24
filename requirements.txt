@@ -7,4 +7,3 @@ yfinance
 statsmodels
 matplotlib 
 seaborn
-base64
