@@ -5,7 +5,7 @@ scikit-learn
 openpyxl
 yfinance
 statsmodels
-matplotlib.pyplot
+matplotlib
 itertools 
 seaborn
 base64
