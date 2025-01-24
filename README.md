@@ -18,3 +18,7 @@ textColor="#CBC917"
 font="sans serif"
 
 VIDEO 
+
+
+Uploading Crypto Modelo Predicción.mp4…
+
