@@ -333,7 +333,7 @@ with st.sidebar:
     st.write("###")
 if st.sidebar.button("Predecir", key="predecir", use_container_width=True):
     # Paso 1: Obtener datos de criptomonedas para los últimos 3 meses
-    df_data = yf.download(crypto_symbol, period=f'{periodo}mo', interval='1d')
+    df_data = yf.download(crypto_symbol, period=f'{periodo}mo', interval='1d', auto_adjust=False)
     df_data = df_data[['Close']].dropna()
     # Preparar la división de entrenamiento y prueba (80% para entrenamiento, 20% para prueba)
     train_size = int(len(df_data) * 0.8)
