@@ -331,9 +331,9 @@ with st.sidebar:
     periodo = st.number_input("Meses de datos históricos", min_value=1, max_value=12, value=6, step=1)
     prediction_ahead = st.number_input("Días a predecir", min_value=1, max_value=30, value=15, step=1)
     st.write('---')
-    predecir = st.button("Predecir")
+     #predecir = st.button("Predecir")
 
-if predecir:
+if st.sidebar.button("Predecir", key="predecir", use_container_width=True): #if predecir:
     # Paso 1: Obtener datos de la criptomoneda
     df_data = yf.download(crypto_symbol, period=f'{periodo}mo', interval='1d', auto_adjust=False)
     df_data = df_data[['Close']].dropna()
